@@ -1,0 +1,21 @@
+
+.links_style    /* concerne les 2 liens du header */
+{  
+    list-style-type: none;                  /* pour enlever le point devant les liens */
+    display: flex;                          /* pour être sur la même ligne */
+    
+}
+
+ul a
+{
+    text-decoration: none;                  /* pour enlever le souligné */
+    padding-left:20px;                      /* pour avoir un espace entre les liens */
+}    
+
+header
+{
+    display: flex;                          /* pour être sur la même ligne */
+	justify-content: space-between;         /* pour écarter les 2 div */
+    align-items:center;                     
+}
+
