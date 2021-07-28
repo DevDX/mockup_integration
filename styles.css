@@ -1,4 +1,10 @@
 
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .links_style    /* concerne les 2 liens du header */
 {  
     list-style-type: none;                  /* pour enlever le point devant les liens */
@@ -19,3 +25,68 @@ header
     align-items:center;                     
 }
 
+#sec_pict
+{
+    display: flex;     
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-image:url(backgroung_image.jpg);
+    height: 760px;   
+    font-size:2.5em;  color:white;   
+}
+
+#div_petit_logo
+{
+    justify-content: center;
+    align-items:center;   
+}
+
+#div_text
+{
+    margin:0px;
+    padding:0px;
+     
+}
+
+#company_logo_pict /*réduction du logo */
+{
+    height:85%;
+    width:85%;
+}
+
+#sec_details
+{
+    background-color: beige;
+}
+
+#art_description
+{
+    text-align: center;   
+    /*width:55%;*/
+    width:750px;
+   /* border:solid blue; utile pour mes tests*/
+    margin-left:500px;
+}    
+
+#div_com
+{
+    /*border: solid green; utile pour mes tests */
+    margin-left:595px;
+    width:590px;
+    text-align:center;   
+    padding: 0px;
+    margin-top:50px;
+
+}
+
+#div_sign
+{
+   /* border: solid green; utile pour mes tests */
+    margin-left:595px;
+    width:590px;
+    text-align:center;   
+    padding: 0px;
+    margin-top:0px;
+
+}
