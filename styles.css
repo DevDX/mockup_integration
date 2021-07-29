@@ -113,3 +113,22 @@ header
     display:flex;
     justify-content: center;
 }
+
+#sec_bottom
+{
+    text-align:center;   
+    margin-top: 25px;  
+}
+
+#foot_div_logo
+{
+    border:solid blue;
+    height:150px;
+}
+
+#foot_div_triple
+{
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+}
