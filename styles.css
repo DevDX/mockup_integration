@@ -118,6 +118,8 @@ header
 {
     text-align:center;   
     margin-top: 25px;  
+    background-color:blueviolet;
+    color:white;
 }
 
 #foot_div_logo
