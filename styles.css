@@ -122,8 +122,15 @@ header
 
 #foot_div_logo
 {
-    border:solid blue;
-    height:150px;
+    /*border:solid blue; /* utile pour mes tests */
+    height:50px;
+    width:40%;
+    display:flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items:center;   
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #foot_div_triple
@@ -131,4 +138,20 @@ header
     display:flex;
     justify-content: space-around;
     align-self: center;
+}
+
+#foot_div_triple p
+{
+    text-align:left;
+}
+
+#div_a_pro
+{
+    text-align:left;  
+}
+
+#div_coor ul
+{
+    list-style-type: none;      
+    text-align:left;
 }
